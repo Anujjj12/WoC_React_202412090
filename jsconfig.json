@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // The base directory for relative paths
+    "paths": {
+      "@/*": ["src/*"] // Path alias, to allow @/ as an alias for src/
+    }
+  },
+  "include": ["src/**/*"] // Include all files inside the src directory
+}
